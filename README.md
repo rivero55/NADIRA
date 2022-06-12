@@ -32,8 +32,8 @@ NADIRA (Natural Disaster Reporting Application) was formed from the community’
 
 1. Login to Nadira with registered account
 2. Choose "Kirim Laporan Bencana" in Home
-3. Take a picture of the natural disaster, e.g. Flood, land slide, etc
-4. Select one of the available catogiries and choose the incident point
+3. Take a picture or get from your library picture of the natural disaster, e.g. Flood, land slide, wildfire, etc
+4. Select one of the available categories and choose the incident point (if your selected image are correct to the model prediction u can proceed to the next step)
 5. Fill in the address details and incident details
 6. Checklist "Izinkan Laporan ini Diakses Publik?"
 7. Click "Kirim Laporan" button, the report will be recorded by the system
