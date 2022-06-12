@@ -14,7 +14,8 @@
 
         <item
             android:id="@+id/nav_contact"
-            android:title="Contact Management" />
+            android:title="Contact Management"
+            android:visible="false"/>
 
         <item
             android:id="@+id/nav_hospital"
