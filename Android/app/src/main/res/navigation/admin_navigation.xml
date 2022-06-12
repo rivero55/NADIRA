@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_navigation.xml"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.bangkit.nadira.view.ui.admin.AdminHomeFragment"
+        android:label="fragment_admin_home"
+        tools:layout="@layout/fragment_admin_home" >
+        <action
+            android:id="@+id/action_nav_home_to_listHospitalActivity"
+            app:destination="@id/nav_hospital" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_contact"
+            app:destination="@id/nav_contact" />
+        <action
+            android:id="@+id/action_nav_home_to_categoryManageFragment"
+            app:destination="@id/nav_category" />
+        <action
+            android:id="@+id/action_nav_home_to_manageNewsFragment"
+            app:destination="@id/navigation_news" />
+        <action
+            android:id="@+id/action_nav_home_to_listReportActivity"
+            app:destination="@id/listReportActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_user_management"
+        android:name="com.bangkit.nadira.view.ui.admin.AdminUserManagementFragment"
+        android:label="fragment_admin_settings"
+        tools:layout="@layout/fragment_admin_user_management" />
+
+    <activity
+        android:id="@+id/nav_hospital"
+        android:name="com.bangkit.nadira.view.ui.hospital.ListHospitalActivity"
+        android:label="activity_list_hospital"
+        tools:layout="@layout/activity_list_hospital" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.bangkit.nadira.view.ui.contact.ContactListFragment"
+        android:label="fragment_contact_list"
+        tools:layout="@layout/fragment_contact_list" >
+        <action
+            android:id="@+id/action_nav_contact_to_createContactFragment"
+            app:destination="@id/createContactFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createContactFragment"
+        android:name="com.bangkit.nadira.view.ui.contact.CreateContactFragment"
+        android:label="Kontak Penting" />
+    <fragment
+        android:id="@+id/nav_category"
+        tools:layout="@layout/fragment_category_manage"
+        android:name="com.bangkit.nadira.view.ui.category.CategoryManageFragment"
+        android:label="Kategori Laporan" >
+        <action
+            android:id="@+id/action_nav_category_to_editCategory"
+            app:destination="@id/editCategory" />
+    </fragment>
+    <fragment
+        android:id="@+id/editCategory"
+        android:name="com.bangkit.nadira.view.ui.category.CategoryEditFragment"
+        android:label="Edit Category" />
+    <fragment
+        android:id="@+id/navigation_news"
+        tools:layout="@layout/fragment_manage_news"
+        android:name="com.bangkit.nadira.view.ui.news.ManageNewsFragment"
+        android:label="Manage News" >
+        <action
+            android:id="@+id/action_navigation_news_to_addNewsFragment"
+            app:destination="@id/addNewsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewsFragment"
+        android:name="com.bangkit.nadira.view.ui.news.AddNewsFragment"
+        android:label="Add News" />
+    <activity
+        android:id="@+id/listReportActivity"
+        android:name="com.bangkit.nadira.view.ui.proceed.ListReportActivity"
+        android:label="Report Dari Warga" />
+
+</navigation>
