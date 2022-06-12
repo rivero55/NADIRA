@@ -50,7 +50,7 @@ class AdminHomeFragment : Fragment() {
         vbind.containerReport.setOnClickListener {
             Navigation.findNavController(vbind.root).navigate(R.id.action_nav_home_to_listReportActivity)
         }
-        (requireActivity() as AppCompatActivity).supportActionBar?.title = "Admin Lapor Satgas"
+        (requireActivity() as AppCompatActivity).supportActionBar?.title = "Admin Lapor Bencana"
 
         vbind.labelName.text = Preference(requireContext()).getPrefString(const.USER_NAME).toString()
         vbind.labelEmail.text = Preference(requireContext()).getPrefString(const.USER_EMAIL).toString()

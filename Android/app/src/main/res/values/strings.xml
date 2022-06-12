@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Lapor Satgas</string>
+    <string name="app_name">Lapor Bencana</string>
     <string name="login">Login</string>
-    <string name="jargon">Cepat, Efisien, Responsive</string>
-    <string name="satgas">Aplikasi Lapor Satgas</string>
+    <string name="jargon">Cepat, Tanggap, Efesien</string>
+    <string name="satgas">Aplikasi Lapor Bencana</string>
     <string name="title_activity_main_menu_user">MainActivity</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_home">Home</string>
