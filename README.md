@@ -47,13 +47,14 @@ NADIRA (Natural Disaster Reporting Application) was formed from the community’
 ## Implementation of Machine Learning
 
 1. Download dataset and unzip it
-2. Split the dataset into training and testinf
+2. Split the dataset into training and testing
 3. Data Preprocessing
 4. Make a training and testing batch using train generator
 5. Train 4 types of data in the Earthquake, Flood, Wildfire, and Cyclone images dataset using CNN Model which contains 3 Layers
 6. Cleaning dataset to make sure the prediction accuracy more accurate and increase the accuracy
 7. Improve the model with transfer learning with Xception 
 8. Save the model weight and .json
+9. From the saved model, convert it into tensorflowlite
 
 ## Members
 
