@@ -44,7 +44,7 @@ NADIRA (Natural Disaster Reporting Application) was formed from the community’
 * Android: Creating Android Project with Google Maps API integration for asscessing the User’s Location and using MVVM architecture, accessing the ML model and another service using API, and implement it in the Android Studio.
 * Cloud: Setting up API with Laravel framework, deploying API using web server Nginx, and setting up environment needed. Also, configure Mariadb database so it can connect with API.
 
-## Implmentation of Machine Learning
+## Implementation of Machine Learning
 
 1. Download dataset and unzip it
 2. Split the dataset into training and testinf
